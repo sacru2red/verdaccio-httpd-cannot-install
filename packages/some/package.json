@@ -1,0 +1,21 @@
+{
+  "name": "@myscope/some",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "release-it"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "devDependencies": {
+    "release-it": "^15.10.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  }
+}

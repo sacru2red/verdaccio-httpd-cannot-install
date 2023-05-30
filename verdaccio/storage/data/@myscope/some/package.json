@@ -1,0 +1,55 @@
+{
+	"name": "@myscope/some",
+	"versions": {
+		"1.0.5": {
+			"name": "@myscope/some",
+			"version": "1.0.5",
+			"description": "",
+			"main": "index.js",
+			"scripts": {
+				"release": "release-it"
+			},
+			"keywords": [],
+			"author": "",
+			"license": "ISC",
+			"publishConfig": {
+				"registry": "http://localhost:4873"
+			},
+			"devDependencies": {
+				"release-it": "^15.10.3"
+			},
+			"dependencies": {
+				"dayjs": "^1.11.7"
+			},
+			"_id": "@myscope/some@1.0.5",
+			"_nodeVersion": "18.15.0",
+			"_npmVersion": "9.6.6",
+			"dist": {
+				"integrity": "sha512-7zxl20wXFMcM69GQwQ0EhX62NxEwkB0so4rlK1EKXmQFolhr+VefDOk0eyWHElwBwU0re1dfWE33pYrultUkJg==",
+				"shasum": "9cdd85f2622bc23d064978778a00de051ef562ad",
+				"tarball": "http://localhost:4873/@myscope/some/-/@myscope/some-1.0.5.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2023-05-30T07:11:14.494Z",
+		"created": "2023-05-30T07:11:14.494Z",
+		"1.0.5": "2023-05-30T07:11:14.494Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.5"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"some-1.0.5.tgz": {
+			"shasum": "9cdd85f2622bc23d064978778a00de051ef562ad",
+			"version": "1.0.5"
+		}
+	},
+	"_rev": "3-5cb6a0d1755c93ee",
+	"_id": "@myscope/some",
+	"readme": "ERROR: No README data found!"
+}

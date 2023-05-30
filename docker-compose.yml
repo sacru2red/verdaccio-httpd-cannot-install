@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  apache:
+    build: 
+      dockerfile: ./apache/Dockerfile
+    restart: always
+    ports:
+      - 443:443
+      - 80:80
+  verdaccio:
+    image: verdaccio/verdaccio:5.24
+    container_name: "verdaccio"
+    environment:
+      - VERDACCIO_PORT=4873
+    ports:
+      - 4873:4873
+    volumes:
+      - ./verdaccio/storage:/verdaccio/storage
+      - ./verdaccio/config:/verdaccio/conf
+      - ./verdaccio/plugins:/verdaccio/plugins
