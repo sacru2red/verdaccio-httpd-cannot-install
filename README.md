@@ -1,7 +1,7 @@
 ## run dokcer
 
 ```
-docker up -d --force-recreate --build
+docker compose up -d --force-recreate --build
 ```
 
 ## success install package
@@ -19,7 +19,8 @@ toggle comment /apache/Dockerfile
 7 line
 
 ```
-docker up -d --force-recreate --build
+cd ..
+docker compose up -d --force-recreate --build
 cd client
 rm -rf node_modules
 npm cache clean --force
